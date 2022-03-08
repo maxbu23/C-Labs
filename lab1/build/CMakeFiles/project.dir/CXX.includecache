@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/MyList.h
+iostream
+-
+initializer_list
+-
+functional
+-
+
+/home/max/Desktop/lab1/src/MyList.cpp
+iostream
+-
+MyList.h
+/home/max/Desktop/lab1/src/MyList.h
+

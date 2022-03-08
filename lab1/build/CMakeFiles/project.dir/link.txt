@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/project.dir/main.cpp.o CMakeFiles/project.dir/src/MyList.cpp.o  -o project 
