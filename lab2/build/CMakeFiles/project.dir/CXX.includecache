@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Algo.h
+Argumenty.h
+../include/Argumenty.h
+
+../include/Argumenty.h
+vector
+-
+iostream
+-
+
+../include/Pierwiastek.h
+iostream
+-
+cmath
+-
+
+../include/Suma.h
+iostream
+-
+Algo.h
+../include/Algo.h
+
+/home/max/Documents/Studies/C++/lab2/main.cpp
+iostream
+-
+Suma.h
+/home/max/Documents/Studies/C++/lab2/Suma.h
+Pierwiastek.h
+/home/max/Documents/Studies/C++/lab2/Pierwiastek.h
+Argumenty.h
+/home/max/Documents/Studies/C++/lab2/Argumenty.h
+
