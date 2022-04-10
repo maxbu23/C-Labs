@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/FilterCriteria.h
+functional
+-
+vector
+-
+
+../include/Functors.h
+
+../include/List.h
+iostream
+-
+vector
+-
+functional
+-
+
+/home/max/Documents/Programing/C++/lab3/main.cpp
+List.h
+/home/max/Documents/Programing/C++/lab3/List.h
+FilterCriteria.h
+/home/max/Documents/Programing/C++/lab3/FilterCriteria.h
+Functors.h
+/home/max/Documents/Programing/C++/lab3/Functors.h
+iostream
+-
+
