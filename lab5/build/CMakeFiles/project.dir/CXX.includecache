@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ClosedShape.h
+cmath
+-
+Interface.h
+../include/Interface.h
+
+../include/Interface.h
+
+../include/main.h
+ClosedShape.h
+../include/ClosedShape.h
+
+/home/max/Documents/Programing/C++/lab5/main.cpp
+iostream
+-
+main.h
+/home/max/Documents/Programing/C++/lab5/main.h
+
